@@ -25,6 +25,9 @@ dataLayer.push({
 |event_data.event_title|string|The title of the in-person or online event||||||||
 |event_data.event_type|string|The type of event - in-person or online||||||||
 
+## Attached Notes
 
-
-
+<p><strong><span class="hljs-string">Examples:&nbsp;</span></strong></p>
+<p><span class="hljs-string">"event_id"</span>: "3338"</p>
+<p><span class="hljs-string">"event_title"</span>: "Caf&eacute; Ohlone Popup Dinner"</p>
+<p><span class="hljs-string">"event_type"</span>: "In-Person"</p>
