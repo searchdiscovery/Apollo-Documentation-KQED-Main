@@ -41,6 +41,16 @@ dataLayer.push({
 |user_data.signup_source|string|The method that the user created the account - via account or newsletter||||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
+## Attached Notes
 
-
-
+<p>Examples:&nbsp;</p>
+<p><span class="hljs-string">login_state</span>:&nbsp;<em>"logged in" or "not logged in"</em></p>
+<p><span class="hljs-string">account_creation_date</span>: "08_01_2023"</p>
+<p><span class="hljs-string">account_status</span>: "verified" or "unverified"</p>
+<p><span class="hljs-string">account_verified_date</span>:&nbsp;<em>"08_01_2023"</em></p>
+<p><span class="hljs-string">days_since_creation</span>:&nbsp;<em>9</em></p>
+<p><span class="hljs-string">days_since_verified</span>:&nbsp;<em>7</em></p>
+<p><span class="hljs-string">member_status</span>:&nbsp;<em>"member" or "not a member"</em></p>
+<p><span class="hljs-string">newsletters_subscribed</span>:&nbsp;<em>News Daily, Science, Kid-Friendly</em></p>
+<p><span class="hljs-string">signup_source</span>:&nbsp;<em>"account signup" or "newsletter signup"</em></p>
+<p>&nbsp;</p>
