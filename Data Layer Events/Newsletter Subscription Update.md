@@ -20,6 +20,8 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |user_data.newsletters_subscribed|string|Comma delimited list of all the newsletters that the user has subscribed to||||||||
 
+## Attached Notes
 
-
-
+<p><strong>Examples:&nbsp;</strong></p>
+<p><span class="hljs-string">newsletters_subscribed</span>:&nbsp;<em>News Daily, Science, Kid-Friendly</em></p>
+<p>&nbsp;</p>
