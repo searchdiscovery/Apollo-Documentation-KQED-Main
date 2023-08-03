@@ -25,6 +25,9 @@ dataLayer.push({
 |event_data.podcast_platform|string|Podcast platform name - Apple, Google, NPR One, Stitcher, Spotify, RSS||||||||
 |event_data.series_name|string|The name of the podcast or livestream series||||||||
 
+## Attached Notes
 
-
-
+<p><strong><span class="hljs-string">Examples:&nbsp;</span></strong></p>
+<p><span class="hljs-string">"episode_name"</span>:&nbsp;<em>"California Needs Renewable Energy. Could We Harness the Power of the Ocean?"</em></p>
+<p><span class="hljs-string">"series_name"</span>:&nbsp;<em>"Bay Curious"</em></p>
+<p>"podcast_platform":&nbsp;<em>"Apple Podcasts"</em></p>
