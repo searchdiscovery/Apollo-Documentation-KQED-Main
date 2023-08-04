@@ -106,4 +106,28 @@ Not yet existing||||||||
 ## Attached Notes
 
 <p>This dataLayer push should occur on new page loads and when the url and article changes via continuous scroll.</p>
-<p>The article object already exists on article and podcast pages. On non article pages this object is not required.<br /><br />There are a few additional parameters included here in article{} particularly with continuous scroll in mind. As users scroll down and back up an article page and new articles come into view and the url changes in the address bar, this event should fire and the parameters should be updated with the correct values to reflect the article currently in view.<br /><br />within page_data, country, language and page_location are not required but are included in all requirements by default.</p>
+<p>The article object already exists on article and podcast pages. On non article pages this object is not required.<br /><br />There are a few additional parameters included here in article{} particularly with continuous scroll in mind. As users scroll down and back up an article page and new articles come into view and the url changes in the address bar, this event should fire and the parameters should be updated with the correct values to reflect the article currently in view.<br /><br />within page_data, country, language and page_location are not required but are included in all requirements by default.&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Examples:&nbsp;</strong></p>
+<p>&nbsp;</p>
+<p><strong>Article Data:&nbsp;</strong></p>
+<p><span class="hljs-string">"number_articles_on_page"</span>: 5</p>
+<p><span class="hljs-string">"page_initial_url"</span>: "https://www.kqed.org/science/1983631/last-summers-fish-killing-algae-bloom-is-back-in-the-bay"</p>
+<p><span class="hljs-string">"publish_month_year"</span>: "05_2023"</p>
+<p>&nbsp;</p>
+<p><strong>Page Data:</strong></p>
+<p>&nbsp;<span class="hljs-string">"content_group"</span>: TBD</p>
+<p><span class="hljs-string">"site_section"</span>: TBD</p>
+<p>&nbsp;</p>
+<p><strong>User Data: </strong></p>
+<p><span class="hljs-string">login_state</span>:&nbsp;<em>"logged in" or "not logged in"</em></p>
+<p><span class="hljs-string">account_creation_date</span>: "08_01_2023"</p>
+<p><span class="hljs-string">account_status</span>: "verified" or "unverified"</p>
+<p><span class="hljs-string">account_verified_date</span>:&nbsp;<em>"08_01_2023"</em></p>
+<p><span class="hljs-string">days_since_creation</span>:&nbsp;<em>9</em></p>
+<p><span class="hljs-string">days_since_verified</span>:&nbsp;<em>7</em></p>
+<p><span class="hljs-string">member_status</span>:&nbsp;<em>"member" or "not a member"</em></p>
+<p><span class="hljs-string">newsletters_subscribed</span>:&nbsp;<em>News Daily, Science, Kid-Friendly</em></p>
+<p><span class="hljs-string">signup_source</span>:&nbsp;<em>"account signup" or "newsletter signup"</em></p>
+<p>&nbsp;</p>

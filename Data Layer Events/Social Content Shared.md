@@ -21,6 +21,7 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.method|string|Captures the name of the social network associated with social network activity \(i.e. follow, share\).|facebook, linkedIn, instrgram, twitter|||||||
 
+## Attached Notes
 
-
-
+<p><strong>Example:</strong></p>
+<p>"method": "Facebook"</p>

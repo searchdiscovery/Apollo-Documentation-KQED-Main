@@ -46,6 +46,7 @@ dataLayer.push({
 
 Not yet existing||||||||
 
+## Attached Notes
 
-
-
+<p><strong>Examples:&nbsp;</strong></p>
+<p><span class="hljs-string">"publish_month_year"</span>: "05_2023"</p>
