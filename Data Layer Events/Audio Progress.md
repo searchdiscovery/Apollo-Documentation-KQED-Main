@@ -1,5 +1,5 @@
 # Audio Progress
-
+Should fire when the user reaches a quartile (i.e. listened to 25%, 50% and 75% of the audio)
 ### 
 
 ## Javascript Code
